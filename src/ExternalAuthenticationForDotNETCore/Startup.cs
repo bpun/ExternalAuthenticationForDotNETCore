@@ -74,20 +74,20 @@ namespace ExternalAuthenticationForDotNETCore
             // Add external authentication middleware below. To configure them please see http://go.microsoft.com/fwlink/?LinkID=532715
             app.UseGoogleAuthentication(new GoogleOptions()
             {
-                ClientId = "185231306031-0heoicl69mr2slfmusbgmsah1q2eu7nl.apps.googleusercontent.com",
-                ClientSecret = "QRNG4nRprdCmp9GuN79c3R0a"
+                ClientId = "185231306031-0heoicl69mr2slfmusbgmsah1q2eu7nl.apps.googleusercontent.com1",
+                ClientSecret = "QRNG4nRprdCmp9GuN79c3R0a1"
             });
 
             app.UseFacebookAuthentication(new FacebookOptions()
             {
-                AppId = "311533165914151",
-                AppSecret = "87308ef07840eccf33f6bfa1b2fa87a2"
+                AppId = "3115331659141511",
+                AppSecret = "87308ef07840eccf33f6bfa1b2fa87a21"
             });
 
             app.UseTwitterAuthentication(new TwitterOptions()
             {
-                ConsumerKey = "ZsxvTBXuWntFaBO9pvU4xbrQV",
-                ConsumerSecret = "vlB0hMyzcH6cjIUPpntv6y8rhQpZNq8A9SRUvqsNsaNxjnx8o1"
+                ConsumerKey = "ZsxvTBXuWntFaBO9pvU4xbrQV1",
+                ConsumerSecret = "vlB0hMyzcH6cjIUPpntv6y8rhQpZNq8A9SRUvqsNsaNxjnx8o11"
             });
 
             app.UseMvc(routes =>
